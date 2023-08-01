@@ -1,0 +1,13 @@
+The package requirements for this Python program are:
+- json
+- time
+- datetime
+- matplotlib
+- pandas
+- numpy
+- tensorflow
+- nltk
+- requests
+- bs4 (BeautifulSoup)
+- plotly
+- nltk.sentiment (SentimentIntensityAnalyzer)
