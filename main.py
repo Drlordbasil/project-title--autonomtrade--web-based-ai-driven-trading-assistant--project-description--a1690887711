@@ -1,15 +1,16 @@
-import json
-import time
-import datetime
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
-import tensorflow as tf
-from nltk.sentiment import SentimentIntensityAnalyzer
-import nltk
-import requests
-from bs4 import BeautifulSoup
 import plotly.express as px
+from bs4 import BeautifulSoup
+import requests
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+import tensorflow as tf
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import datetime
+import time
+import json
+```
 
 
 class WebScraper:
@@ -129,7 +130,6 @@ class TradingAssistant:
         self.security.protect_data()
 
 
-# Call the main function to run the trading assistant
-if __name__ == "__main__":
-    assistant = TradingAssistant()
-    assistant.run()
+assistant = TradingAssistant()
+assistant.run()
+```
